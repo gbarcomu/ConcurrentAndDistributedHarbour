@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="ampliacionID.EstacionDeContado" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/ampliacionID/EstacionDeContado.java" binary="false" label="estacionDeContado" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="295" y="0"/>    
+    <execution id="2">      
+      <position height="19" width="137" x="5" y="271"/>    
+    </execution>    
+    <execution id="3">      
+      <position height="19" width="137" x="5" y="352"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="57" width="137" x="5" y="416"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="57" width="137" x="5" y="519"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="barcos.BarcoPetrolero" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/barcos/BarcoPetrolero.java" binary="false" label="barcoPetrolero" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="134" y="0"/>    
+    <execution id="11">      
+      <position height="57" width="111" x="146" y="92"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="76" width="111" x="146" y="171"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="19" width="111" x="146" y="209"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="57" width="111" x="146" y="252"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="95" width="111" x="146" y="397"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="19" width="111" x="146" y="538"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="barcos.BarcoPetrolero" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/barcos/BarcoPetrolero.java" binary="false" label="barcoPetrolero1" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="255" y="0"/>    
+    <execution id="22">      
+      <position height="57" width="111" x="261" y="149"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="76" width="111" x="261" y="236"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="19" width="111" x="261" y="274"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="57" width="111" x="261" y="333"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="95" width="111" x="261" y="500"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="19" width="111" x="261" y="435"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="sesionPrimitivas.PuertaDeControl" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionPrimitivas/PuertaDeControl.java" binary="false" label="puertaDeControl" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="246" y="0"/>    
+    <execution id="13">      
+      <position height="19" width="119" x="376" y="111"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="19" width="119" x="376" y="168"/>    
+    </execution>  
+  </object>  
+  <message id="5" operation="compararId(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="8" operation="compararId(int):void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="12" operation="yaHeSalido(int):void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="setIdPetrolero(int):void">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="heLlegado(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="2"/>  
+  </message>  
+  <message id="20" operation="avisarAlResto(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="23" operation="yaHeSalido(int):void">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="26" operation="setIdPetrolero(int):void">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="29" operation="heLlegado(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="3"/>  
+  </message>  
+  <message id="31" operation="avisarAlResto(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="principal.Puerto" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/principal/Puerto.java" binary="false" label="puerto" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="74" y="0"/>    
+    <execution id="2">      
+      <position height="57" width="61" x="5" y="134"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="57" width="61" x="5" y="73"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="barcos.BarcoPetrolero" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/barcos/BarcoPetrolero.java" binary="false" label="barcoPetrolero" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="220" y="0"/>    
+    <execution id="4">      
+      <position height="19" width="111" x="70" y="153"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="57" width="111" x="70" y="318"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="57" width="111" x="70" y="399"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="57" width="111" x="70" y="423"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="57" width="111" x="70" y="550"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="sesionSemaforos.ZonaReabastecimiento" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionSemaforos/ZonaReabastecimiento.java" binary="false" 
+    label="zonaReabastecimiento" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="160" y="0"/>    
+    <execution id="7">      
+      <position height="19" width="155" x="185" y="92"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="57" width="155" x="185" y="165"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="57" width="155" x="185" y="228"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="19" width="155" x="185" y="337"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="19" width="155" x="185" y="418"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="19" width="155" x="185" y="442"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="19" width="155" x="185" y="520"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="19" width="155" x="185" y="489"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="19" width="155" x="185" y="569"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="sesionSemaforos.ReponedorPetroleo" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionSemaforos/ReponedorPetroleo.java" binary="false" 
+    label="reponedorPetroleo" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="473" y="0"/>    
+    <execution id="27">      
+      <position height="19" width="134" x="471" y="247"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="57" width="134" x="471" y="470"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="sesionSemaforos.ReponedorAceite" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionSemaforos/ReponedorAceite.java" binary="false" label="reponedorAceite" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="284" y="0"/>    
+    <execution id="24">      
+      <position height="19" width="123" x="344" y="184"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="57" width="123" x="344" y="501"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="BarcoPetrolero(sesionPrimitivas.PuertaDeControl,int,int,sesionSemaforos.ZonaReabastecimiento,ampliacionID.EstacionDeContado)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="ZonaReabastecimiento()">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="10" operation="quieroRecargar(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="13" operation="recargoPetroleo(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16" operation="recargoAceite(barcos.BarcoPetrolero):void">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="19" operation="yaHeRecargado():void">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="23" operation="ReponedorAceite(sesionSemaforos.ZonaReabastecimiento)">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="26" operation="ReponedorPetroleo(sesionSemaforos.ZonaReabastecimiento)">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="32" operation="reponerPetroleo():void">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="35" operation="reponerAceite():void">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>
+</sequence-diagram>

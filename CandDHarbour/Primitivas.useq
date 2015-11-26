@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="principal.Puerto" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/principal/Puerto.java" binary="false" label="puerto" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="105" y="0"/>    
+    <execution id="2">      
+      <position height="57" width="61" x="5" y="157"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="57" width="61" x="5" y="92"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="57" width="61" x="5" y="513"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="barcos.Barco" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/barcos/Barco.java" binary="false" label="barco" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="275" y="0"/>    
+    <execution id="4">      
+      <position height="19" width="58" x="70" y="176"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="57" width="58" x="70" y="243"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="57" width="58" x="70" y="277"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="57" width="58" x="70" y="406"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="57" width="58" x="70" y="431"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="sesionPrimitivas.PuertaDeControl" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionPrimitivas/PuertaDeControl.java" binary="false" label="puertaDeControl" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="149" y="0"/>    
+    <execution id="7">      
+      <position height="19" width="119" x="132" y="111"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="19" width="119" x="132" y="262"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="19" width="119" x="132" y="296"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="19" width="119" x="132" y="425"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="19" width="119" x="132" y="450"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="76" width="119" x="132" y="320"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="19" width="119" x="132" y="358"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="19" width="119" x="132" y="532"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="Barco(sesionPrimitivas.PuertaDeControl,int,int)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="PuertaDeControl(java.lang.String,java.lang.String)">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="hanPasadoTodos():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="13" operation="quieroEntrar(barcos.Barco):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16" operation="quieroSalir(barcos.Barco):void">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="19" operation="yaHeEntrado(int):void">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="22" operation="yaHeSalido(int):void">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="26" operation="actividadPuerta():void">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>
+</sequence-diagram>

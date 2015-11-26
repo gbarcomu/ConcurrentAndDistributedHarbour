@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="principal.Puerto" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/principal/Puerto.java" binary="false" label="puerto" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="73" y="0"/>    
+    <execution id="2">      
+      <position height="57" width="61" x="5" y="136"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="57" width="61" x="5" y="73"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="barcos.BarcoMercante" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/barcos/BarcoMercante.java" binary="false" label="barcoMercante" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="70" y="0"/>    
+    <execution id="4">      
+      <position height="19" width="112" x="70" y="155"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="57" width="112" x="70" y="231"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="57" width="112" x="70" y="343"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="sesionMonitores.ZonaMercancias" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionMonitores/ZonaMercancias.java" binary="false" label="zonaMercancias" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="133" y="0"/>    
+    <execution id="7">      
+      <position height="19" width="118" x="284" y="92"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="57" width="118" x="284" y="159"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="19" width="118" x="284" y="250"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="19" width="118" x="284" y="296"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="19" width="118" x="186" y="362"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="sesionMonitores.Grua" project="Puerto_VersionFinalSinDoc" 
+    file="/Puerto_VersionFinalSinDoc/src/sesionMonitores/Grua.java" binary="false" label="grua" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="298" y="0"/>    
+    <execution id="18">      
+      <position height="19" width="75" x="406" y="178"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="57" width="75" x="406" y="277"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="BarcoMercante(sesionPrimitivas.PuertaDeControl,sesionMonitores.ZonaMercancias,int)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="ZonaMercancias(java.lang.String,java.lang.String)">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="10" operation="dejarContenedor(int):void">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="13" operation="acabar():void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="17" operation="Grua(int,sesionMonitores.ZonaMercancias)">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="22" operation="gruaRecogeContenedor(int):void">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>
+</sequence-diagram>
